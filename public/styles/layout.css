@@ -1,0 +1,269 @@
+.header-container {
+    height: 150px;
+}
+
+.app-header {
+    background-color: #B00020;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.app-title {
+    color: white;
+    font-size: 50px;
+}
+
+.search-container {
+    margin-top: 20px
+}
+
+.search-bar {
+    border: 1px solid black;
+    width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #B00020;
+  width: 100%;
+  margin-left: : 25%;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  width: 100%;
+  margin: 10px;
+ 
+  /*text-align: cente;
+  line-height: 75px;
+  font-size: 30px;
+  */
+}
+
+.spacer-top {
+    margin-top: 10px;
+}
+
+.spacer-bottom {
+    margin-bottom: 10px;
+}
+
+.white-background {
+    background-color: white !important;
+}
+
+.picture-placeholder {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.description-placeholder {
+    width: 75%;
+    height: 200px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.review-button {
+    background: red;
+    padding: 30px;
+}
+
+.review-placeholder {
+    width: 75%;
+    height: 100px;
+    border: 1px solid red;
+    padding: 20px;
+}
+
+.menu-item-pic {
+    height: 100%;
+    width: 100%;
+}
+
+.star-review {
+    display: flex;
+    justify-content: center;
+}
+
+.star-box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.review-text {
+    width: 500px;
+    height: 500px;
+}
+
+.r-image-container {
+    height: 500px;
+    align-items: normal !important;
+}
+
+.restaurant-info {
+    height: 300px;
+    width: 100%;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.popular-dishes {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.popular-dish-picture {
+    height: 100%;
+    width: 100px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.list-layout{
+    display: block; 
+    border: 1px solid black;
+    margin: 10px;
+    justify-content: left;
+    align-items: left; 
+}
+
+.dropdown-item-container {
+    width: 50% !important;
+    height: 75px;
+    border: 1px solid black;
+    padding: 10px;
+    background: white;
+}
+
+.dropdown-info-container {
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dropdown-pic {
+    width: 15%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.dropdown-name {
+    width: 50%;
+    border: 1px solid black;
+}
+.review{
+  justify-content: center;
+  text-align: center;
+}
+ 
+.commentBox{
+  padding: 1%; 
+  width: 96%;
+  border: 1px solid #000;
+  background-color: #f0f0f0;
+  margin-bottom: 10px; 
+}
+
+.leftPanelImg{ 
+  width:10%;
+  float: left;
+
+}
+
+.leftPanelImg img{
+  border-radius: 100%
+}
+
+.rightPanel{ 
+width: 85%; 
+float:left;
+margin-left: 1%; 
+}
+
+.home {
+  background-color: #B00020; 
+      color: black;
+      line-height: 50px;
+      
+    }
+
+.clear{
+  clear:both;
+}
+
+.dropbtn {
+    background-color: #696969;
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 100px;
+    padding: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.view-menu-button {
+    margin-top: 50px;
+    font-size: 20px;
+    background-color: #B00020;
+    padding: 20px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+

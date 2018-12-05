@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="public/styles/layout.css" rel="stylesheet"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+    <body>
+        <div class="container-fullwidth header-container">
+            <nav class="navbar app-header text-center">
+                <span class="navbar-brand mb-0 h1 app-title" id="app-title">MNU</span>
+            </nav>
+        </div>
+
+        <button class="button first-button" id="back-button">
+                Back 
+        </button>
+
+        <div class="flex-container white-background">
+            <div class="row">
+                <h1 id="dish-title">Title of Dish</h1>
+            </div>
+            <div class="row">
+                <div class="picture-placeholder">Picture Goes Here</div>
+            </div>
+            <div class="row">
+                <div class="description-placeholder">
+                    <p id="dish-description">Description: Lorem ipsum dolor sit amet, </p>
+                    <p id="dish-content">Contains: Lorem ipsum dolor sit amet, </p>
+                    <p id ="dish-rating"></p>
+                </div>
+            </div>
+            <div class="row">
+                <button class="review-button">
+                    <form action="write_review.html">
+                        <input type="submit" value="Write a Review" />
+                    </form>
+                </button>
+            </div>
+            <div class="row" id="review-container">
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>        <script src="./public/scripts/menu_item.js"></script>
+        <script src="./public/scripts/general.js"></script>
+    </body>
+</html>
